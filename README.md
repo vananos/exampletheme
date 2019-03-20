@@ -1,0 +1,1 @@
+# Simple theme example, just for exercise 

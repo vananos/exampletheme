@@ -1,0 +1,36 @@
+.preview {
+    position: relative;
+    border-left: 1px solid lightgray;
+    margin: 10px;
+    padding: 10px;
+}
+
+.preview::before {
+    display: block;
+    content: "preview";
+    text-transform: lowercase;
+    top: 0;
+    left: 0;
+    color: rgba(126, 125, 124, 0.75);
+    margin-bottom: 10px;
+}
+
+.preview::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.form-wrapper {
+    display: table;
+}
+
+.form-example {
+    display: table-cell;
+    padding: 15px;
+    border: 2px solid rgb(148, 87, 230);
+}
+
+.form-example div:last-child {
+    text-align: center;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="css/demo.css">
+<meta charset="UTF-8">
+
+<head>
+    <title>vananos theme example</title>
+</head>
+
+<body>
+    <h1>vananos theme example</h1>
+    <section class="preview">
+        <h2>Button</h2>
+        <button class="button" data-text="Click me">Click me</button>
+    </section>
+    <section class="preview">
+        <h2>Input</h2>
+        <div class="input-container">
+            <input type="text" id="text-input" class="text-input" required>
+            <div class="label-box"><label for="text-input">Name</label></div>
+        </div>
+    </section>
+    <section class="preview">
+        <h2>Checkbox</h2>
+        <div class="input-container">
+            <input type="checkbox" name="someCheckbox" id="someCheckbox" class="checkbox">
+            <label for="someCheckbox">Нужен автомобиль</label>
+        </div>
+    </section>
+    <section class="preview">
+        <h2>Radio button</h2>
+        <div class="radio-group">
+            <div class="radio-container">
+                <input type="radio" id="radio1" name="radio" checked>
+                <label for="radio1">Самолетом</label>
+            </div>
+            <div class="radio-container">
+                <input type="radio" id="radio2" name="radio">
+                <label for="radio2">Машиной</label>
+            </div>
+            <div class="radio-container">
+                <input type="radio" id="radio3" name="radio">
+                <label for="radio3">Кораблем</label>
+            </div>
+        </div>
+    </section>
+    <section class="preview">
+        <h2>Simple form example</h2>
+        <div class="form-wrapper">
+            <form action="#" method="POST" class="form-example">
+                <div class="input-container">
+                    <input type="text" id="name" class="text-input" required>
+                    <div class="label-box"><label for="name">Name</label></div>
+                </div>
+                <div class="input-container">
+                    <input type="text" id="surname" class="text-input" required>
+                    <div class="label-box"><label for="surname">Surname</label></div>
+                </div>
+                <div class="input-container">
+                    <input type="text" id="useremail" class="text-input" required>
+                    <div class="label-box"><label for="useremail">Email</label></div>
+                </div>
+                <div class="input-container">
+                    <label class="label">I'm: </label>
+                    <div class="radio-group">
+                        <div class="radio-container">
+                            <input type="radio" id="male" name="radio" checked>
+                            <label for="male">Male</label>
+                        </div>
+                        <div class="radio-container">
+                            <input type="radio" id="female" name="radio">
+                            <label for="female">Female</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-container">
+                    <input type="checkbox" id="accept" class="checkbox" required>
+                    <label for="accept">I accept the user agreement</label>
+                </div>
+                <div>
+                    <button type="reset" data-text="Reset" class="button">Reset</button>
+                    <button type="submit" data-text="Submit" class="button">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
